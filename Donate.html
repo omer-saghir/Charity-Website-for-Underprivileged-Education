@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kuickpay Donation Voucher</title>
+    <link rel="stylesheet" href="C:\Users\Omer\Downloads\Donate styling.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>kuick<span class="green">pay</span></span>
+        </div>
+        <h2>Please Create Donation Voucher</h2>
+        <form action="#" method="POST">
+            <label for="organization">Donation Organization:</label>
+            <input type="text" id="organization" name="organization" value="Futureroot" readonly>
+
+            <label for="purpose">Donation Purpose:</label>
+            <input type="text" id="purpose" name="purpose" value="EDUCATION" readonly>
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <label>Payment Method:</label>
+            <div class="payment-method">
+                <label><input type="radio" name="payment_method" value="bank_transfer" checked> Bank Transfer</label>
+                <label><input type="radio" name="payment_method" value="credit_card"> Credit/Debit Card</label>
+            </div>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email: (abc@abc.com)</label>
+            <input type="email" id="email" name="email" placeholder="abc@abc.com" required>
+
+            <label for="mobile">Mobile: (03001234567)</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="03001234567" required>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 <a href="#">kuickpay</a> - All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+    background-color: #e6f4ff;
+    padding: 10px;
+    margin: 0 -20px 20px;
+    border-bottom: 1px solid #d4ecff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.payment-method {
+    margin-bottom: 15px;
+}
+
+.payment-method label {
+    display: inline;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.logo {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073e6;
+}
+
+.logo span.green {
+    color: #28a745;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}

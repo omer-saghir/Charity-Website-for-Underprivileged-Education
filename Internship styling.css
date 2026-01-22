@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    margin: 1rem auto;
+    display: block;
+}
+
+.internship-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.apply-btn {
+    display: inline-block;
+    background-color: #FFB400;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #cc9200;
+    color: white;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
